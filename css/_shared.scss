@@ -1,0 +1,47 @@
+// Shared CSS styles between all themes.
+
+// Natural box model
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+ }
+
+// Invisible link class, for book titles, logos, and other links we don't want to appear as links.
+.invisilink {
+  text-decoration: none;
+  color: inherit;
+}
+
+// Rules for flexible embedded media
+// (in case users embed this stuff in their markup)
+// See also: http://css-tricks.com/rundown-of-handling-flexible-media/
+img {
+  max-width: 100%;
+
+  /* just in case, to force correct aspet ratio */
+  height: auto !important;
+}
+video {
+  max-width: 100%;
+
+  /* just in case, to force correct aspet ratio */
+  height: auto !important;
+}
+audio {
+  width: 100%;
+}
+// @todo: These classes aren't helpful if the users don't embed them in their
+//        markdown. Maybe I have a script that looks for youtube/vimeo embeds
+//        and automatically wraps them in wrappers like these?
+.video-wrapper {
+  height: 0;
+  padding-bottom: 56.25%; /* 16:9 */
+  position: relative;
+}
+.video-wrapper iframe {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+}

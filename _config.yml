@@ -1,0 +1,29 @@
+######################
+# book (meta) info
+
+title: Strange Case of Dr. Jekyll and Mr. Hyde
+author: 
+  name: Robert Louis Stevenson
+
+github:
+  url: "https://github.com/bookdesigns/book-epsilon"
+
+
+########
+# more settings
+
+collections:
+  chapters:
+      output: false
+
+sass:
+  sass_dir: css
+  style:    expanded
+
+exclude:
+- README.md
+
+
+markdown: kramdown
+kramdown:
+  math_engine: katex

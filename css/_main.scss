@@ -1,0 +1,345 @@
+/*********************************
+ * Epsilon Book styles
+ *********************************/
+
+/*
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+::-moz-selection {
+    background: #333;
+    color: white;
+    text-shadow: none;
+}
+
+::selection {
+    background: #333;
+    color: white;
+    text-shadow: none;
+}
+
+/* Epsilon specific icons (font) */
+@font-face {
+  font-family: 'bb-menu';
+  src: url(data:application/x-font-ttf;charset=utf-8;base64,AAEAAAALAIAAAwAwT1MvMg6SAywAAAC8AAAAYGNtYXAaVcxZAAABHAAAAExnYXNwAAAAEAAAAWgAAAAIZ2x5ZtL2rXgAAAFwAAAB2GhlYWQA5UlYAAADSAAAADZoaGVhBygDyAAAA4AAAAAkaG10eA4AAtgAAAOkAAAAHGxvY2EA3gGAAAADwAAAABBtYXhwAAsARwAAA9AAAAAgbmFtZZsSdT4AAAPwAAABOXBvc3QAAwAAAAAFLAAAACAAAwQAAZAABQAAApkCzAAAAI8CmQLMAAAB6wAzAQkAAAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAAAAAAAABAAADmAgPA/8D/wAPAAEAAAAABAAAAAAAAAAAAAAAgAAAAAAACAAAAAwAAABQAAwABAAAAFAAEADgAAAAKAAgAAgACAAEAIOYC//3//wAAAAAAIOYA//3//wAB/+MaBAADAAEAAAAAAAAAAAAAAAEAAf//AA8AAQAAAAAAAAAAAAIAADc5AQAAAAABAAAAAAAAAAAAAgAANzkBAAAAAAEAAAAAAAAAAAACAAA3OQEAAAAAAwCaAM0DZgLNABYALQBEAAABISIOAhUUHgIzITI+AjU0LgIjJSEyPgI1NC4CIyEiDgIVFB4CMwEhIg4CFRQeAjMhMj4CNTQuAiMDM/2aCxIOCAgOEgsCZgsSDggIDhIL/ZoCZgsSDggIDhIL/ZoLEg4ICA4SCwJm/ZoLEg4ICA4SCwJmCxIOCAgOEgsCAAgOEwoLEg4ICA4SCwoTDghmCA4TCwoTDggIDhMKCxMOCP7NCA4SCwsSDggIDhILCxIOCAAAAAEBHwAfAuEDewAdAAAlHgEUBgcOASImJwEuATQ2NwE+ATIWFx4BFAYHCQEC4QUGBgUFDQ0NBf5vBQYGBQGRBQ0NDQUFBgYF/pMBbVEFDQ4NBQUGBgUBlQUNDg0FAZUFBQUFBQ4NDQX+hP6EAAEBHwAfAuEDewAdAAAlDgEUFhceATI2NwE+ATQmJwEuASIGBw4BFBYXCQEBHwUGBgUFDQ0NBQGRBQYGBf5vBQ0NDQUFBgYFAW3+k1EFDQ4NBQUGBgUBlQUNDg0FAZUFBQUFBQ4NDQX+hP6EAAEAAAABAADiYY1EXw889QALBAAAAAAAzzCCcAAAAADPMIJwAAAAAANmA3sAAAAIAAIAAAAAAAAAAQAAA8D/wAAABAAAAAAAA2YAAQAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAAACAAAABAAAmgQAAR8EAAEfAAAAAAAKABQAHgCAALYA7AABAAAABwBFAAMAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAADgCuAAEAAAAAAAEADgAAAAEAAAAAAAIADgBHAAEAAAAAAAMADgAkAAEAAAAAAAQADgBVAAEAAAAAAAUAFgAOAAEAAAAAAAYABwAyAAEAAAAAAAoAKABjAAMAAQQJAAEADgAAAAMAAQQJAAIADgBHAAMAAQQJAAMADgAkAAMAAQQJAAQADgBVAAMAAQQJAAUAFgAOAAMAAQQJAAYADgA5AAMAAQQJAAoAKABjAGIAYgAtAG0AZQBuAHUAVgBlAHIAcwBpAG8AbgAgADEALgAwAGIAYgAtAG0AZQBuAHViYi1tZW51AGIAYgAtAG0AZQBuAHUAUgBlAGcAdQBsAGEAcgBiAGIALQBtAGUAbgB1AEcAZQBuAGUAcgBhAHQAZQBkACAAYgB5ACAASQBjAG8ATQBvAG8AbgAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA) format('truetype'),
+     url(data:application/font-woff;charset=utf-8;base64,d09GRk9UVE8AAAUUAAoAAAAABMwAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAABDRkYgAAAA9AAAAY4AAAGO6yYF0E9TLzIAAAKEAAAAYAAAAGAOkgMsY21hcAAAAuQAAABMAAAATBpVzFlnYXNwAAADMAAAAAgAAAAIAAAAEGhlYWQAAAM4AAAANgAAADYA5UlYaGhlYQAAA3AAAAAkAAAAJAcoA8hobXR4AAADlAAAABwAAAAcDgAC2G1heHAAAAOwAAAABgAAAAYAB1AAbmFtZQAAA7gAAAE5AAABOZsSdT5wb3N0AAAE9AAAACAAAAAgAAMAAAEABAQAAQEBCGJiLW1lbnUAAQIAAQA6+BwC+BsD+BgEHgoACXf/i4seCgAJd/+LiwwHi0v6lPpUBR0AAACCDx0AAACHER0AAAAJHQAAAYUSAAgBAQgPERMWGyAlYmItbWVudWJiLW1lbnV1MHUxdTIwdUU2MDB1RTYwMXVFNjAyAAACAYkABQAHAQEEBwoNgrv0/pQO/pQO/pQO/JQO+cf4lBX8+osFb4t0dItvi2+idKeLCPj6iwWoi6Gii6eLp3WibosI/PrxFfj6iwWoi6Gii6iLp3WibosI/PqLBW+LdHSLb4tuonSniwj4+vvHFfz6iwVvi3R0i2+Lb6J0p4sI+PqLBaiLoaKLp4undaJuiwgO+XXcFZl9i3V9fX59dIt+mQj8JfgpBX2Zi6GZmQj4JfgpBZiZoouYfZl9i3R9fgj8AfwQ+AH8EAUO97PcFX19i3WZfZh9oouYmQj4JfgpBZmZi6F9mQj8JfgpBX6ZdIt+fX19i3SZfgj4AfwQ/AH8EAUO+pQU+pQViwwKAAAAAwQAAZAABQAAApkCzAAAAI8CmQLMAAAB6wAzAQkAAAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAAAAAAAABAAADmAgPA/8D/wAPAAEAAAAABAAAAAAAAAAAAAAAgAAAAAAACAAAAAwAAABQAAwABAAAAFAAEADgAAAAKAAgAAgACAAEAIOYC//3//wAAAAAAIOYA//3//wAB/+MaBAADAAEAAAAAAAAAAAAAAAEAAf//AA8AAQAAAAEAAPUJhXJfDzz1AAsEAAAAAADPMIJwAAAAAM8wgnAAAAAAA2YDewAAAAgAAgAAAAAAAAABAAADwP/AAAAEAAAAAAADZgABAAAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAAAIAAAAEAACaBAABHwQAAR8AAFAAAAcAAAAAAA4ArgABAAAAAAABAA4AAAABAAAAAAACAA4ARwABAAAAAAADAA4AJAABAAAAAAAEAA4AVQABAAAAAAAFABYADgABAAAAAAAGAAcAMgABAAAAAAAKACgAYwADAAEECQABAA4AAAADAAEECQACAA4ARwADAAEECQADAA4AJAADAAEECQAEAA4AVQADAAEECQAFABYADgADAAEECQAGAA4AOQADAAEECQAKACgAYwBiAGIALQBtAGUAbgB1AFYAZQByAHMAaQBvAG4AIAAxAC4AMABiAGIALQBtAGUAbgB1YmItbWVudQBiAGIALQBtAGUAbgB1AFIAZQBnAHUAbABhAHIAYgBiAC0AbQBlAG4AdQBHAGUAbgBlAHIAYQB0AGUAZAAgAGIAeQAgAEkAYwBvAE0AbwBvAG4AAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==) format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="bitcon-"],
+[class*=" bitcon-"],
+.bitcon {
+  font-family: 'bb-menu';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bitcon-list:before {
+  content: "\e600";
+}
+.bitcon-arrow-left2:before {
+  content: "\e601";
+}
+.bitcon-arrow-right2:after {
+  content: "\e602";
+}
+
+// Uncomment the transitions / paddings to enable next/previous icon animation.
+// I've disabled it by default because it seems like a bit too much.
+.previous {
+  &:before {
+    @extend .bitcon;
+    content: "\e601";
+    font-size: 13px;
+    padding-right: 10px;
+    font-weight: bold;
+    //-webkit-transition: padding-right 200ms; /* For Safari 3.1 to 6.0 */
+    //transition: padding-right 200ms;
+  }
+  &:hover {
+    &:before {
+      //padding-right: 18px;
+    }
+  }
+}
+
+.next {
+  &:after {
+    @extend .bitcon;
+    font-size: 13px;
+    padding-left: 10px;
+    font-weight: bold;
+    content: "\e602";
+    //-webkit-transition: padding-left 200ms; /* For Safari 3.1 to 6.0 */
+    //transition: padding-left 200ms;
+  }
+  &:hover {
+     &:after {
+      //padding-left: 18px;
+     }
+  }
+}
+
+
+/* basic elements */
+body {
+  font-family: 'Noticia Text', Georgia, serif;
+  font-size: 18px;
+  line-height: 26px;
+  color: #333;
+  background: url('mini-tiles.png');
+}
+
+p {
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  margin: 1em 0;
+  line-height: 1em;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 36px;
+  border-bottom: 1px solid #ccc;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 26px;
+}
+
+h5 {
+  font-size: 26px;
+  font-style: italic;
+}
+
+h6 {
+  font-size: 22px;
+}
+
+blockquote {
+  font-style: italic;
+  margin-left: 1.5em;
+  font-size: 22px;
+  color: #666;
+}
+
+table {
+  margin: 1em 0;
+  width: 100%;
+}
+
+th,
+td {
+  border: solid 1px #ccc;
+  padding: 5px 11px;
+  vertical-align: top;
+}
+
+/**
+ * 'Simple' styling for code examples
+ */
+code,
+samp,
+kbd {
+  font-family: "Courier", monospace;
+  font-size: 0.8em;
+  padding: 0 6px;
+  text-align: left;
+}
+
+pre {
+  font-family: "Courier", monospace;
+  font-size: 0.8em;
+  line-height: 1.2em;
+  margin: 1.2em 0;
+  overflow: auto;
+  padding: 5px 0 5px 1.5em;
+  border: 1px solid #ddd;
+
+  // Override non-horizontally scrolling defaults in normalize.css.
+  white-space: pre;
+  word-wrap: normal;
+}
+
+// Override 'code' css rules if using 'pre > code' markup.
+pre > code {
+  padding: 0;
+}
+
+// target IE7 and IE6
+*:first-child+html pre {
+  overflow: visible;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding-bottom: 2em;
+}
+
+* html pre {
+  overflow: visible;
+  overflow-x: auto;
+  padding-bottom: 2em;
+}
+
+.page-header {
+  width: 100%;
+  margin: 0 auto;
+  padding: 6px 0 6px;
+  text-align: center;
+  background-color: #fff;
+  color: #333;
+  position: fixed;
+  top: 0;
+  box-shadow: 1px 0 4px -1px #999;
+  padding-left: 3em;
+}
+
+.book-title {
+  font-size: 1.5em;
+  font-weight: bold;
+  display: inline;
+  padding-right: 0.8em;
+}
+
+.book-author {
+  font-weight: 200;
+  font-style: italic;
+  padding-left: 16px;
+  font-size: 12px;
+
+  // Hide the author info at small screen widths.
+  @media screen and (max-width: $tablet-1) {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+}
+
+.page-wrapper {
+  margin: 0 auto;
+
+  .menu-toggle {
+    text-decoration: none;
+    color: #333;
+  }
+}
+
+.content-wrapper {
+  margin: 2.8em auto;
+  max-width: 680px;
+  padding: 0 1em;
+
+  a {
+    color: $orangey;
+    text-decoration: underline;
+  }
+}
+
+.main-content-source {
+  margin-bottom: 60px;
+
+  li {
+    padding: 4px 0;
+    line-height: 23px;
+  }
+
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.main-content-nav {
+  margin: 1em 0;
+  font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
+  font-size: 16px;
+
+  a {
+    text-decoration: none;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    display: inline;
+
+    &:first-child {
+      float: left;
+    }
+
+    &:last-child {
+      float: right;
+    }
+  }
+}
+
+.menu-toggle {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  font-size: 40px;
+  padding: 2px 6px 2px 6px;
+
+  &:hover {
+    color: $orangey;
+  }
+}
+
+/* hide toggle text for accessibility */
+.menu-toggle-text {
+  position: absolute;
+  top: -999999em;
+  left: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.page-footer {
+  padding-top: 20px;
+}
+
+.footer-wrapper {
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+
+  a {
+    color: $orangey;
+    text-decoration: underline;
+  }
+}
+
+.small-text {
+  clear: both;
+  padding: 1em 0 1em 0;
+}

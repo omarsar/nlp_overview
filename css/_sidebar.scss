@@ -1,0 +1,205 @@
+/**
+ * @todo
+ *   Holly's recommendation (which I think I'd like to try, maybe in a cloned stylesheet)
+ *   is to have no hover state (or maybe a link underlining hoverstate), and to only use
+ *   the "depressed" button style to indicate the active link.
+ */
+.sidr {
+    display: none;
+    position: absolute;
+    position: fixed;
+    top: 0;
+    height: 100%;
+    z-index: 999999;
+    width: 260px;
+    overflow-x: none;
+    overflow-y: auto;
+    font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
+    font-size: 14px;
+    background: #2A2B30;
+    color: #fff;
+    -webkit-box-shadow: inset -6px 0 9px 0 #222;
+    -moz-box-shadow: inset -6px 0 9px 0 #222;
+    box-shadow: inset -6px 0 9px 0 #222;
+
+    &.left {
+        left: -260px;
+        right: auto;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-size: 11px;
+        font-weight: normal;
+        padding: 0 15px;
+        margin: 0;
+        color: #fff;
+        line-height: 24px;
+        background-image: -webkit-gradient(linear,  50% 0%,  50% 100%,  color-stop(0%,  #43444D),  color-stop(100%,  #35363D));
+        background-image: -webkit-linear-gradient(#43444D, #35363D);
+        background-image: -moz-linear-gradient(#43444D, #35363D);
+        background-image: -o-linear-gradient(#43444D, #35363D);
+        background-image: linear-gradient(#43444D, #35363D);
+        text-transform: uppercase;
+        text-shadow: 1px 1px #212226;
+        border-top: 1px solid #5D5E61;
+        border-bottom: 1px solid #1a1a1a;
+    }
+
+    p {
+        margin: 12px 0 16px;
+        padding: 0 1em;
+        line-height: 1.6;
+        color: #e2e2e2;
+    }
+
+    ul {
+        display: block;
+        margin: 0;
+        padding: 0;
+        border-top: 1px solid #1a1a1a;
+        border-bottom: 1px solid #444;
+
+        li {
+            display: block;
+            margin: 0;
+            border-top: 1px solid #444;
+            border-bottom: 1px solid #1a1a1a;
+
+            /* 1st level links & directories */
+            a,
+            span {
+                padding: 10px 15px;
+                display: block;
+                line-height: 1.4;
+            }
+
+            ul {
+                border-bottom: none; /* this is important */
+                margin: 0;
+
+                li {
+                    font-size: 13px;
+
+                    &:last-child {
+                        border-bottom: none; /* this is important */
+                    }
+
+                    /* 2nd level links & directories */
+                    a,
+                    span {
+                        padding-left: 30px;
+                    }
+
+                    ul li {
+
+                        /* 3rd level links & directories */
+                        a,
+                        span {
+                            font-size: 12px;
+                            padding-left: 45px;
+                        }
+
+                        ul li {
+
+                            /* 4th level links & directories */
+                            a,
+                            span {
+                                padding-left: 60px;
+                            }
+
+                            ul li {
+
+                                /* 5th level links & directories */
+                                a,
+                                span {
+                                    padding-left: 75px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    form {
+        margin: 0 15px;
+    }
+    label {
+        font-size: 13px;
+    }
+    input[type="text"],
+    input[type="password"],
+    input[type="date"],
+    input[type="datetime"],
+    input[type="email"],
+    input[type="number"],
+    input[type="search"],
+    input[type="tel"],
+    input[type="time"],
+    input[type="url"],
+    textarea,
+    select {
+        width: 100%;
+        font-size: 13px;
+        padding: 5px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        margin: 0 0 10px;
+        -webkit-border-radius: 2px;
+        -moz-border-radius: 2px;
+        -ms-border-radius: 2px;
+        -o-border-radius: 2px;
+        border-radius: 2px;
+        border: none;
+        background: rgba(0, 0, 0, 0.1);
+        color: rgba(255, 255, 255, 0.6);
+        display: block;
+        clear: both;
+    }
+    input[type=checkbox] {
+        width: auto;
+        display: inline;
+        clear: none;
+    }
+    input[type=button],
+    input[type=submit] {
+        color: #333;
+        background: #fff;
+    }
+    input[type=button]:hover,
+    input[type=submit]:hover {
+        background: rgba(255, 255, 255, 0.9);
+    }
+
+    /* Epsilon specific styles */
+    // Active / Hover states
+    .child:hover,
+    .child.active {
+        -webkit-box-shadow: inset 0 0 15px 3px #222;
+        -moz-box-shadow: inset 0 0 15px 3px #222;
+        box-shadow: inset 0 0 15px 3px #222;
+        border-top: 1px solid #222;
+    }
+}
+
+
+/* Other Epsilon-specific customizations */
+.aside-content a {
+    color: #65B365;
+    text-decoration: none;
+}
+
+.table-of-contents > nav > ul {
+    border: none;
+}
+
+.aside-wrapper {
+    border-top: 1px solid #1a1a1a;
+}

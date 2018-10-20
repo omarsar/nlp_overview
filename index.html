@@ -1,0 +1,77 @@
+---
+layout: default
+---
+
+        <div class="content-wrapper clearfix">
+
+          <section class="main-content" role="main">
+            <div class="main-content-source">
+             {% for chapter in site.chapters %}
+                <a name="{{ forloop.index }}"></a>
+                <h1>{{ chapter.title }}</h1><!-- use h2 - why? why not? -->
+                {{ chapter.content }}
+             {% endfor %}         
+            </div>
+            <!-- 
+            <nav class="main-content-nav clearfix" role="navigation">
+              <ul>
+                <li>[[ previous_link(data.tree) ]]</li>
+                <li>[[ next_link(data.tree) ]]</li>
+              </ul>
+            </nav>
+            -->
+          </section>
+
+          <aside id="sidr" class="aside-content" role="complementary">
+            <div class="aside-wrapper">
+
+              <div class="block table-of-contents">
+                <h3>Table of Contents</h3>
+                <nav role="navigation">
+                  <ul>
+                    
+                    <!-- was: [[ tree_to_html(data.tree) ]] -->
+                    {% for chapter in site.chapters %}
+                      <li class="child">
+                        <a href="#{{ forloop.index }}">{{ chapter.title }}</a>
+                      </li>
+                    {% endfor %}
+                    
+                  </ul>
+                </nav>
+              </div>
+
+              <div class="block open-source">
+                <h3>This book is open source</h3>
+                <p>The source of this book is <a href="{{ site.github.url }}">hosted on Github</a>. Go, ahead. Check it out.</p>
+              </div>
+
+              <!--
+              <div class="block downloads">
+                <h3>Downloads</h3>
+                <p>Download this book in
+                    <a href="#">PDF</a>, <a href="#">mobi</a>, and <a href="#">epub</a>
+                  form for free.
+                </p>
+              </div>
+              -->
+
+              <div class="block translations">
+                <h3>Book translations</h3>
+                <p>This book is translated into
+                  <a href="#">Spanish</a>
+                  and <a href="#">English</a>.
+                  You can help with more translations <a href="{{ site.github.url }}">on Github</a>.
+                </p>
+              </div>
+
+              <div class="block license">
+                <h3>License</h3>
+                <p>This book is dedicated to the public domain.</p>
+              </div>
+
+            </div><!-- end aside-wrapper -->
+          </aside>
+
+        </div><!-- end content-wrapper -->
+
