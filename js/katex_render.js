@@ -23,5 +23,3 @@ $("script[type='math/tex']").replaceWith(
            katex.renderToString(tex) +
            "</span>";
 });
-
-text-align: center
