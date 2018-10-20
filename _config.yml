@@ -1,12 +1,12 @@
 ######################
 # book (meta) info
 
-title: Strange Case of Dr. Jekyll and Mr. Hyde
+title: Recent Trend in Deep Learning Based Natural Language Processing
 author: 
-  name: Robert Louis Stevenson
+  name: Authors
 
 github:
-  url: "https://github.com/bookdesigns/book-epsilon"
+  url: ""
 
 
 ########
@@ -22,7 +22,6 @@ sass:
 
 exclude:
 - README.md
-
 
 markdown: kramdown
 kramdown:
