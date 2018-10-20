@@ -10,7 +10,9 @@ $("script[type='math/tex; mode=display']").replaceWith(
   function(){
     var tex = $(this).text();
     return "<div class=\"equation\">" + 
-           katex.renderToString("\\displaystyle "+tex) +
+           katex.renderToString("\\displaystyle "+tex, {
+             displayMode: true
+           }) +
            "</div>";
 });
 
@@ -21,3 +23,5 @@ $("script[type='math/tex']").replaceWith(
            katex.renderToString(tex) +
            "</span>";
 });
+
+text-align: center
