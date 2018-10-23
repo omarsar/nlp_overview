@@ -1,4 +1,4 @@
-## Overview of Natural Language Processing
+## Modern Deep Learning Techniques Applied to Natural Language Processing
 This article contains an overview of recent trends in deep learning based natural language processing (NLP). It covers the theoretical ideas and implementation details behind deep learning models such as recurrent neural networks (RNNs), convolutional neural networks (CNNs), and reinforcement learning as used to solve various NLP tasks. The book also contains a summary of state of the art results for NLP tasks such as machine translation, question answering, dialogue systems, among others. 
 
 ## About this project
