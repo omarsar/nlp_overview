@@ -7,4 +7,4 @@ The following are the main reasons for this project:
 - A collaborative platform where expert researchers can suggest changes (e.g., incorporate SOTA results) based on their recent findings and experimental results
 
 ## Contributing
-There are various ways to contribute to this project. Refer to the issue section to learn more about how you can help with this project. Or you can make suggestions in the form of an issue as well. 
+There are various ways to contribute to this project. Refer to the [issue section](https://github.com/omarsar/nlp_overview/issues/1) to learn more about how you can help. Or you can make suggestions in the form of a [new issue](https://github.com/omarsar/nlp_overview/issues/new) as well. 
