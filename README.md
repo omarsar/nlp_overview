@@ -31,4 +31,4 @@ The following are the main reasons for this book project:
     - [Dialogue Systems](https://nlpoverview.com/#g-dialogue-systems)
 
 ## How to Contribute?
-There are various ways to contribute to this project. Refer to the [issue section](https://github.com/omarsar/nlp_overview/issues/1) to learn more about how you can help. Or you can make suggestions in the form of a [new issue](https://github.com/omarsar/nlp_overview/issues/new) as well. 
+There are various ways to contribute to this project. Refer to the [issue section](https://github.com/omarsar/nlp_overview/issues/1) to learn more about how you can help. Or you can make suggestions by submitting a [new issue](https://github.com/omarsar/nlp_overview/issues/new). 
