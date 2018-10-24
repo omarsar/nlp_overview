@@ -1,5 +1,5 @@
 ## Modern Deep Learning Techniques Applied to Natural Language Processing
-This book project contains an overview of recent trends in deep learning based natural language processing (NLP). It covers the theoretical concepts and implementation details behind deep learning models, such as recurrent neural networks (RNNs), convolutional neural networks (CNNs), and reinforcement learning, used to solve various NLP tasks. The overview also contains a summary of state of the art results for NLP tasks such as *machine translation*, *question answering*, and *dialogue systems*. You can find the learning resource at the following address: [https://nlpoverview.com/](https://nlpoverview.com/). A snapshot of the website is provided below:
+This project contains an overview of recent trends in deep learning based natural language processing (NLP). It covers the theoretical concepts and implementation details behind deep learning models, such as recurrent neural networks (RNNs), convolutional neural networks (CNNs), and reinforcement learning, used to solve various NLP tasks and applications. The overview also contains a summary of state of the art results for NLP tasks such as *machine translation*, *question answering*, and *dialogue systems*. You can find the learning resource at the following address: [https://nlpoverview.com/](https://nlpoverview.com/). A snapshot of the website is provided below:
 
 ![alt txt](img/nlp_overview.gif)
 
@@ -17,10 +17,31 @@ The main motivations for this project are as follows:
 ## Table of Contents
 - [Introduction](https://nlpoverview.com/#1)
 - [Distributed Representation](https://nlpoverview.com/#2)
+    - [Word Embeddings](https://nlpoverview.com/#a-word-embeddings)
+    - [Word2vec](https://nlpoverview.com/#b-word2vec)
+    - [Character Embeddings](https://nlpoverview.com/#c-character-embeddings)
 - [Convolutional Neural Networks](https://nlpoverview.com/#3)
+    - [Basic CNN](https://nlpoverview.com/#a-basic-cnn)
+        - [Sentence Modeling](https://nlpoverview.com/#1-sentence-modeling)
+        - [Window Approach](https://nlpoverview.com/#2-window-approach)
+    - [Applications](https://nlpoverview.com/#b-applications)
 - [Recurrent Neural Networks](https://nlpoverview.com/#4)
+    - [Need for Recurrent Networks](https://nlpoverview.com/#a-need-for-recurrent-networks)
+    - [RNN models](https://nlpoverview.com/#b-rnn-models)
+        - [Simple RNN](https://nlpoverview.com/#1-simple-rnn)
+        - [Long Short-Term Memory](https://nlpoverview.com/#2-long-short-term-memory)
+        - [Gated Recurrent Units](https://nlpoverview.com/#3-gated-recurrent-units)
+    - [Applications](https://nlpoverview.com/#c-applications)
+        - [RNN for word-level classification](https://nlpoverview.com/#1-rnn-for-word-level-classification)
+        - [RNN for sentence-level classification](https://nlpoverview.com/#2-rnn-for-sentence-level-classification)
+        - [RNN for generating language](https://nlpoverview.com/#3-rnn-for-generating-language)
+    - [Attention Mechanism](https://nlpoverview.com/#d-attention-mechanism)
 - [Recursive Neural Networks](https://nlpoverview.com/#5)
+    - [Basic model](https://nlpoverview.com/#a-basic-model)
 - [Deep Reinforced Models and Deep Unsupervised Learning](https://nlpoverview.com/#6)
+    - [Reinforcement learning for sequence generation](https://nlpoverview.com/#a-reinforcement-learning-for-sequence-generation)
+    - [Unsupervised sentence representation learning](https://nlpoverview.com/#b-unsupervised-sentence-representation-learning)
+    - [Deep generative models](https://nlpoverview.com/#c-deep-generative-models)
 - [Memory-Augmented Networks](https://nlpoverview.com/#7)
 - [Performance of Different Models on Different NLP Tasks](https://nlpoverview.com/#8)
     - [POS tagging](https://nlpoverview.com/#a-pos-tagging)
