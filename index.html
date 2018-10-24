@@ -17,6 +17,7 @@ layout: default
             <div class="main-content-source">
              {% for chapter in site.chapters %}
                 <a name="{{ forloop.index }}"></a>
+                <h1>Chapter {{ chapter.number }}</h1>
                 <h1>{{ chapter.title }}</h1><!-- use h2 - why? why not? -->
                 {{ chapter.content }}
              {% endfor %}         
