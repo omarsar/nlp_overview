@@ -9,7 +9,7 @@ The following are the main reasons for this book project:
     - state of the art results
     - emerging concepts and models
     - new benchmark datasets
-    - code/dataset release
+    - code/dataset releases
     - etc.
 - An open resource to help guide young researchers in the NLP field
 - A collaborative project where expert researchers can suggest changes (e.g., incorporate SOTA results) based on their recent findings and experimental results
