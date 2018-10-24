@@ -7,7 +7,7 @@ This project contains an overview of recent trends in deep learning based natura
 The main motivations for this project are as follows:
 - Maintain an up-to-date learning resource that integrates important information related to NLP research, such as:
     - state of the art results
-    - emerging concepts and models
+    - emerging concepts and applications
     - new benchmark datasets
     - code/dataset releases
     - etc.
