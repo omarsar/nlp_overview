@@ -1,5 +1,5 @@
 ## Modern Deep Learning Techniques Applied to Natural Language Processing
-This book project contains an overview of recent trends in deep learning based natural language processing (NLP). It covers the theoretical ideas and implementation details behind deep learning models such as recurrent neural networks (RNNs), convolutional neural networks (CNNs), and reinforcement learning as used to solve various NLP tasks. The document also contains a summary of state of the art results for NLP tasks such as machine translation, question answering, dialogue systems, among others. You can find the learning resource at the following address: [https://nlpoverview.com/](https://nlpoverview.com/). Snapshot of the website provided below:
+This book project contains an overview of recent trends in deep learning based natural language processing (NLP). It covers the theoretical concepts and implementation details behind deep learning models such as recurrent neural networks (RNNs), convolutional neural networks (CNNs), and reinforcement learning as used to solve various NLP tasks. The document also contains a summary of state of the art results for NLP tasks such as machine translation, question answering, dialogue systems, among others. You can find the learning resource at the following address: [https://nlpoverview.com/](https://nlpoverview.com/). A snapshot of the website is provided below:
 
 ![alt txt](img/nlp_overview.gif)
 
@@ -11,8 +11,8 @@ The following are the main reasons for this book project:
     - new benchmark datasets
     - code/dataset release
     - etc.
-- An open resource to help guide young researchers in the field
-- A collaborative platform where expert researchers can suggest changes (e.g., incorporate SOTA results) based on their recent findings and experimental results
+- An open resource to help guide young researchers in the NLP field
+- A collaborative project where expert researchers can suggest changes (e.g., incorporate SOTA results) based on their recent findings and experimental results
 
 ## Table of Contents
 - [Introduction](https://nlpoverview.com/#1)
