@@ -16,6 +16,8 @@ github:
 collections:
   chapters:
       output: false
+  intro:
+      output: false
 
 sass:
   sass_dir: css

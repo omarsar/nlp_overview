@@ -5,6 +5,15 @@ layout: default
         <div class="content-wrapper clearfix">
 
           <section class="main-content" role="main">
+
+            <div class="main-content-source">
+              {% for chapter in site.intro %}
+                  <!-- <a name="{{ forloop.index }}"></a>
+                  <h1>{{ chapter.title }}</h1> --> 
+                  {{ chapter.content }}
+              {% endfor %}         
+            </div>
+
             <div class="main-content-source">
              {% for chapter in site.chapters %}
                 <a name="{{ forloop.index }}"></a>
