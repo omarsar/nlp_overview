@@ -63,7 +63,7 @@ Here are a few important suggestions received from the community on Twitter and 
 
 ## Build site locally
 If you are planning to change some aspect of the site (e.g., adding section or style) and want to preview it locally on your machine, we suggest you to build and run the site locally using `jekyll`. Here are the instructions:
-- First, check that you `Ruby 2.1.0` or higher installed on your computer. You can check using the `ruby --version` command. 
+- First, check that `Ruby 2.1.0` or higher is installed on your computer. You can check using the `ruby --version` command. If not, please install it using the instructions provided [here](https://www.ruby-lang.org/en/documentation/installation/).
 - After ensuring that Ruby is installed, install Bundler using `gem install bundler`. 
 - Clone this repo locally: `git clone https://github.com/omarsar/nlp_overview.git`
 - Navigate to the repo folder with `cd nlp_overview`
@@ -72,4 +72,4 @@ If you are planning to change some aspect of the site (e.g., adding section or s
 - Preview site on the browser at `http://localhost:4000`
 
 ## Maintenance
-This project is maintained by [Elvis Saravia](https://github.com/omarsar) and [Soujanya Poria](https://github.com/soujanyaporia). A major part of this project have been directly borrowed from the work of [Young et al. (2017)](https://arxiv.org/abs/1708.02709). We are thankful to the authors.
+This project is maintained by [Elvis Saravia](https://github.com/omarsar) and [Soujanya Poria](https://github.com/soujanyaporia). You can also find me on [Twitter](https://twitter.com/omarsar0) if you have any direct comments or questions. A major part of this project have been directly borrowed from the work of [Young et al. (2017)](https://arxiv.org/abs/1708.02709). We are thankful to the authors.
