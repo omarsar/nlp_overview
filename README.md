@@ -58,8 +58,8 @@ There are various ways to contribute to this project. Refer to the [issue sectio
 
 ## Wishlist
 Here are a few important suggestions received from the community on Twitter and GitHub:
-- [] Adding sections on language models such as `ELMo`, `ULMFit`, `BERT`, etc.
-- [] Add section on `text summarization` task
+- Adding sections on language models such as `ELMo`, `ULMFit`, `BERT`, etc.
+- Add section on `text summarization` task
 
 ## Build site locally
 If you are planning to change some aspect of the site (e.g., adding section or style) and want to preview it locally on your machine, we suggest you to build and run the site locally using `jekyll`. Here are the instructions:
