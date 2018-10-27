@@ -56,5 +56,20 @@ The main motivations for this project are as follows:
 ## How to Contribute?
 There are various ways to contribute to this project. Refer to the [issue section](https://github.com/omarsar/nlp_overview/issues/1) to learn more about how you can help. Or you can make suggestions by submitting a [new issue](https://github.com/omarsar/nlp_overview/issues/new). More detailed instructions coming soon.
 
+## Wishlist
+Here are a few important suggestions received from the community on Twitter and GitHub:
+- [] Adding sections on language models such as `ELMo`, `ULMFit`, `BERT`, etc.
+- [] Add section on `text summarization` task
+
+## Build site locally
+If you are planning to change some aspect of the site (e.g., adding section or style) and want to preview it locally on your machine, we suggest you to build and run the site locally using `jekyll`. Here are the instructions:
+- First, check that you `Ruby 2.1.0` or higher installed on your computer. You can check using the `ruby --version` command. 
+- After ensuring that Ruby is installed, install Bundler using `gem install bundler`. 
+- Clone this repo locally: `git clone https://github.com/omarsar/nlp_overview.git`
+- Navigate to the repo folder with `cd nlp_overview`
+- Install Jekyll: `bundle install`
+- Run the Jekyll site locally: `bundle exec jekyll serve`
+- Preview site on the browser at `http://localhost:4000`
+
 ## Maintenance
 This project is maintained by [Elvis Saravia](https://github.com/omarsar) and [Soujanya Poria](https://github.com/soujanyaporia). A major part of this project have been directly borrowed from the work of [Young et al. (2017)](https://arxiv.org/abs/1708.02709). We are thankful to the authors.
