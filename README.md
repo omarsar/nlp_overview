@@ -20,6 +20,7 @@ The main motivations for this project are as follows:
     - [Word Embeddings](https://nlpoverview.com/#a-word-embeddings)
     - [Word2vec](https://nlpoverview.com/#b-word2vec)
     - [Character Embeddings](https://nlpoverview.com/#c-character-embeddings)
+    - [Contextualized Word Embeddings](https://nlpoverview.com/#d-contextualized-word-embeddings)
 - [Convolutional Neural Networks](https://nlpoverview.com/#3)
     - [Basic CNN](https://nlpoverview.com/#a-basic-cnn)
         - [Sentence Modeling](https://nlpoverview.com/#1-sentence-modeling)
@@ -36,6 +37,7 @@ The main motivations for this project are as follows:
         - [RNN for sentence-level classification](https://nlpoverview.com/#2-rnn-for-sentence-level-classification)
         - [RNN for generating language](https://nlpoverview.com/#3-rnn-for-generating-language)
     - [Attention Mechanism](https://nlpoverview.com/#d-attention-mechanism)
+    - [Parallelized Attention: The Transformer](https://nlpoverview.com/#e-parallelized-attention-the-transformer)
 - [Recursive Neural Networks](https://nlpoverview.com/#5)
     - [Basic model](https://nlpoverview.com/#a-basic-model)
 - [Deep Reinforced Models and Deep Unsupervised Learning](https://nlpoverview.com/#6)
@@ -52,7 +54,7 @@ The main motivations for this project are as follows:
     - [Machine Translation](https://nlpoverview.com/#f-machine-translation)
     - [Question Answering](https://nlpoverview.com/#g-question-answering)
     - [Dialogue Systems](https://nlpoverview.com/#g-dialogue-systems)
-
+    - [Contextualized Embeddings](https://nlpoverview.com/#i-contextual-embeddings)
 ## How to Contribute?
 There are various ways to contribute to this project. Refer to the [issue section](https://github.com/omarsar/nlp_overview/issues/1) to learn more about how you can help. Or you can make suggestions by submitting a [new issue](https://github.com/omarsar/nlp_overview/issues/new). More detailed instructions coming soon.
 
