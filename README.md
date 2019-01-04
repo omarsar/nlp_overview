@@ -59,7 +59,7 @@ The main motivations for this project are as follows:
 There are various ways to contribute to this project. 
 
 - You can propose text additions in this public [shared document](https://docs.google.com/document/d/1wN8_D5szivA11wkybecu2TyrRZhYkpH_QxkmlRktuW4/edit?usp=sharing) for now. We will help edit and revise the content and then further assist you to incorporate the contributions to the project. 
-- Refer to the [issue section](https://github.com/omarsar/nlp_overview/issues/1) to learn more about how you can help. 
+- Refer to the [issue section](https://github.com/omarsar/nlp_overview/issues/1) to learn more about other ways you can help. 
 - Or you can make suggestions by submitting a [new issue](https://github.com/omarsar/nlp_overview/issues/new). More detailed instructions coming soon.
 
 ## Build site locally
