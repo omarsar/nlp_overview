@@ -56,12 +56,11 @@ The main motivations for this project are as follows:
     - [Dialogue Systems](https://nlpoverview.com/#g-dialogue-systems)
     - [Contextualized Embeddings](https://nlpoverview.com/#i-contextual-embeddings)
 ## How to Contribute?
-There are various ways to contribute to this project. Refer to the [issue section](https://github.com/omarsar/nlp_overview/issues/1) to learn more about how you can help. Or you can make suggestions by submitting a [new issue](https://github.com/omarsar/nlp_overview/issues/new). More detailed instructions coming soon.
+There are various ways to contribute to this project. 
 
-## Wishlist
-Here are a few important suggestions received from the community on Twitter and GitHub:
-- Adding sections on language models such as `ELMo`, `ULMFit`, `BERT`, etc.
-- Add section on `text summarization` task
+- You can propose text additions in this public [shared document](https://docs.google.com/document/d/1wN8_D5szivA11wkybecu2TyrRZhYkpH_QxkmlRktuW4/edit?usp=sharing) for now. We will help edit and revise the content and then further assist you to incorporate the contributions to the project. 
+- Refer to the [issue section](https://github.com/omarsar/nlp_overview/issues/1) to learn more about how you can help. 
+- Or you can make suggestions by submitting a [new issue](https://github.com/omarsar/nlp_overview/issues/new). More detailed instructions coming soon.
 
 ## Build site locally
 If you are planning to change some aspect of the site (e.g., adding section or style) and want to preview it locally on your machine, we suggest you to build and run the site locally using `jekyll`. Here are the instructions:
