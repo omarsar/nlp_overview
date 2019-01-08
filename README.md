@@ -55,10 +55,14 @@ The main motivations for this project are as follows:
     - [Question Answering](https://nlpoverview.com/#g-question-answering)
     - [Dialogue Systems](https://nlpoverview.com/#g-dialogue-systems)
     - [Contextualized Embeddings](https://nlpoverview.com/#i-contextual-embeddings)
+
 ## How to Contribute?
 There are various ways to contribute to this project. 
+- The quickest way to propose an edit or add text is as follows: `fork` the repo, browse to the corresponding `chapter`, and then click on `edit` button to add your info. The image below shows the last two steps after you have forked the repo. You can then submit a pull request and we will approve accordingly. If you would like to change a huge portion of the project or even add a chapter, then we recommend looking at the `"Build site locally"` section below.
 
-- You can propose text additions in this public [shared document](https://docs.google.com/document/d/1wN8_D5szivA11wkybecu2TyrRZhYkpH_QxkmlRktuW4/edit?usp=sharing) for now. We will help edit and revise the content and then further assist you to incorporate the contributions to the project. 
+![alt txt](img/contribute.png)
+
+- You can also propose text additions in this public [shared document](https://docs.google.com/document/d/1wN8_D5szivA11wkybecu2TyrRZhYkpH_QxkmlRktuW4/edit?usp=sharing) if you are not familiar with `git`. We will help edit and revise the content and then further assist you to incorporate the contributions to the project. 
 - Refer to the [issue section](https://github.com/omarsar/nlp_overview/issues/1) to learn more about other ways you can help. 
 - Or you can make suggestions by submitting a [new issue](https://github.com/omarsar/nlp_overview/issues/new). More detailed instructions coming soon.
 
